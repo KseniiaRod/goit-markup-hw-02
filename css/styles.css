@@ -1,0 +1,43 @@
+/* Основновной цвет текста #212121  */
+/* Вторичный цвет текста #757575; */
+/* Цвет для заголовка светлый #FFFFFF; */
+/* Логотип темный цвет #000000 */
+/* Логотип светлый цвет, акцент #2196F3 */
+/* Колір контактів в футері #2196F3(255, 255, 255, 0.6) */
+
+:root {
+  /*Text color */
+  --main-txt-cl: #212121;
+  --accent-txt-cl: #2196f3;
+  --logo-txt-cl: #000000;
+  --light-txt-cl: #ffffff;
+  --dark-txt-cl: rgba(255, 255, 255, 0.6);
+  --grey-txt-cl: rgba(117, 117, 117, 1);
+
+  /*Background color */
+  --main-bg-cl: #ffffff;
+  --accent-bg-cl: #2196f3;
+  --dack-bg-cl: #2f303a;
+  --light-bg-cl: #f5f5f5;
+}
+.page {
+  background-color: var(--light-bg-cl);
+  color: #212121;
+}
+
+.list { list-style: none;
+  list-style: none;
+}
+
+.link { text-decoration: none;
+}
+
+.header .link:hover,
+.header .link:focus {
+ color: var(--accent-txt-cl);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-txt-cl);
+}
