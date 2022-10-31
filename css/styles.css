@@ -5,6 +5,8 @@
 /* Логотип светлый цвет, акцент #2196F3 */
 /* Колір контактів в футері #2196F3(255, 255, 255, 0.6) */
 
+/*Main. Index.html*/
+
 :root {
   /*Text color */
   --main-txt-cl: #212121;
@@ -14,6 +16,11 @@
   --dark-txt-cl: rgba(255, 255, 255, 0.6);
   --grey-txt-cl: rgba(117, 117, 117, 1);
 
+  /*Fonts*/
+  --main-font: 'Roboto', sans-sefir;
+  --secondary-font: 'Raleway', sans-sefir, 'Oleo Script';
+  --brand-color: #3f51b5;
+
   /*Background color */
   --main-bg-cl: #ffffff;
   --accent-bg-cl: #2196f3;
@@ -22,22 +29,60 @@
 }
 .page {
   background-color: var(--light-bg-cl);
-  color: #212121;
+  color: var(--main-txt-cl);
 }
 
-.list { list-style: none;
+.list {
   list-style: none;
 }
 
-.link { text-decoration: none;
+.link {
+  text-decoration: none;
+}
+/*Header*/
+.page-header .link:hover,
+.page-header .link:focus {
+  color: var(--accent-txt-cl);
 }
 
-.header .link:hover,
-.header .link:focus {
- color: var(--accent-txt-cl);
+.logo-header {
+color: var(--accent-txt-cl);
+font-family:var(--secondary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
 }
 
+.logo-part {
+    color: var(--logo-txt-cl);
+}
+
+.header-list,
+.contacts-list
+ {
+    font-family:var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,1428;
+letter-spacing: 0.02em;
+}
+
+.header-list {
+color: var(--main-txt-cl);
+}
+
+
+
+
+
+
+/*Footer*/
 .footer .link:hover,
 .footer .link:focus {
   color: var(--accent-txt-cl);
 }
+
+/*Portfolio.html*/
