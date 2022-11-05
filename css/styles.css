@@ -23,6 +23,7 @@
 }
 .page {
   background-color: var(--main-bg-cl);
+  color: var(--dark-txt-cl);
 }
 
 .list {
@@ -87,18 +88,13 @@
 
 .effective-solution-title {
   color: var(--light-txt-cl);
-
   font-size: 44px;
   line-height: calc(60 / 44);
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
-.Order-btn {
-  position: absolute;
+.order-btn {
   width: 152px;
-  height: 30px;
   left: 724px;
   top: 440px;
   border-color: var(--accent-bg-cl);
@@ -112,32 +108,28 @@
   font-weight: 700;
   font-size: 16px;
 
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--light-txt-cl);
 }
 
 .section-title {
+  color: var(--main-txt-cl);
   font-family: var(--main-font);
   font-size: 36px;
   line-height: calc(42 / 36);
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
 .features-1 {
+  font-family: var(--dark-txt-cl);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .our-team {
   background-color: var(--light-bg-cl);
-  text-align: center;
 }
 .team-list {
   line-height: 19px;
@@ -152,7 +144,7 @@
 }
 
 .team-list p {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -172,10 +164,6 @@
 }
 
 .address-list {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
   color: var(--light-txt-cl);
 }
 
@@ -191,9 +179,45 @@
 }
 
 .list-item-email,
-.list-item-tel {
+.list-item-tel,
+.contact_link,
+.contact_mail,
+.contact_tel {
   letter-spacing: 0.03em;
   color: var(--dark-txt-cl);
 }
 
 /*Portfolio.html*/
+
+.btn-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 625;
+  letter-spacing: 0.03em;
+  border-color: #757575;
+}
+
+.contact_link {
+  color: var(--light-txt-cl);
+}
+
+.portfolio-btn {
+  border-color: none;
+}
+
+.portfolio-btn :focus,
+.portfolio-btn :hover {
+  background-color: var(--accent-bg-cl);
+}
+
+.list-title {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: calc(36 / 18);
+}
+
+.list-p {
+font-family: var(--main-font);
+font-size: 16px;
+line-height: 30px;
+color: var(--grey-txt-cl);}
