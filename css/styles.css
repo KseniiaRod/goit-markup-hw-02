@@ -88,10 +88,7 @@ body {
 
 .effective-solution {
   background-color: var(--dark-bg-cl);
-  width: 1600px;
-  height: 600px;
-  left: -15px;
-  top: 80px;
+  
 }
 
 .effective-solution-title {
@@ -101,10 +98,7 @@ body {
 }
 
 .order-btn {
-  min-width: 152px;
-  left: 724px;
-  top: 440px;
-  border: transparent;
+   border: transparent;
   background-color: var(--accent-bg-cl);
 }
 
@@ -126,7 +120,6 @@ body {
 
 .features-1 {
   font-family: var(--dark-txt-cl);
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
 }
@@ -186,10 +179,7 @@ body {
 /*Portfolio.html*/
 
 .btn-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 625;
-  border-color: transparent;
+ border-color: transparent;
 }
 
 .contact_links {
@@ -198,10 +188,14 @@ body {
 
 .portfolio-btn {
   border-color: #f5f5f5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  
 }
 
-.portfolio-btn button:focus,
-.portfolio-btn button:hover {
+.portfolio-btn:focus,
+.portfolio-btn:hover {
   background-color: var(--accent-bg-cl);
 }
 
@@ -220,4 +214,8 @@ body {
 
 .logo-part-footer {
   color: var(--light-txt-cl);
+}
+
+.address-list {
+  font-style: normal;
 }
